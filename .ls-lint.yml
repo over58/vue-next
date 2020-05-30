@@ -5,3 +5,4 @@ ls:
     .d.ts: camelCase
     .spec.ts: camelCase | PascalCase
     .mock.ts: camelCase
+#ls-lint 就是一个非常快的对文件名和目录名命名规范的一个 package

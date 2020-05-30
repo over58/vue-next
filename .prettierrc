@@ -1,3 +1,6 @@
 semi: false
 singleQuote: true
 printWidth: 80
+#prettier 是一个专门进行各种类型代码格式化的一个工具，这个是格式化规则的配置文件
+#"prettier --write --parser markdown css/**.css css/**.md"
+#如果需要同时格式化多种个格式的文件的话，就不要指定 parser

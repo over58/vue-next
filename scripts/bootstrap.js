@@ -1,5 +1,13 @@
 // create package.json, README, etc. for packages that don't have them yet
-
+/**
+ * 就是当你创建一个新的 package的时候，快捷的帮你初始化，
+ * src/index.ts
+ * api-extractor.json
+ * index.js
+ * package.json
+ * READMe.md
+ * 使用：可以自己在 src 目录下新建一个文件夹，然后运行 node scripts/bootstrap.js
+ */
 const args = require('minimist')(process.argv.slice(2))
 const fs = require('fs')
 const path = require('path')
